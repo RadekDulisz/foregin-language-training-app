@@ -54,10 +54,10 @@
     </form>
 
     <button 
-        class="button bg-green"
-        @click="saveWords"
-      >
-        Save words
+      class="button bg-green"
+      @click="saveWords"
+    >
+      Save changes
     </button>
 
     <h1 class="mt-8 mb-4">

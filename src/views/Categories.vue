@@ -28,7 +28,7 @@
         class="button bg-green"
         @click="saveCategory"
       >
-        Save categories
+        Save changes
     </button>
     
     <h1 class="mt-8 mb-4">

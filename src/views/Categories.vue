@@ -36,14 +36,14 @@
     </h1>
 
     <div 
-      class="pair items-center" 
+      class="pair items-center"
       v-for="(category, index) in categories"
     >
-      <div class="category">
+      <div class="category flex justify-start">
         {{ category }}
       </div>
 
-      <div class="category">
+      <div class="category flex justify-end">
         <input 
           type="button" 
           class="remove" 

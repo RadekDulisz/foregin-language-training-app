@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-1/4 mx-auto">
+  <div class="container w-1/4 mx-auto mt-4">
     <Question
       v-if="!isDone"
       :word="currentWord" 
